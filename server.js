@@ -31,7 +31,7 @@ var saveFileLocaly = function (req, res) {
     });
 
     form.on('end', function () {
-        res.end('success');
+        res.redirect("play.html");
     });
 
     form.parse(req);
