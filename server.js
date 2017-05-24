@@ -42,6 +42,6 @@ app.post('/upload', function (req, res) {
     saveFileLocaly(req, res);
 });
 
-var server = app.listen(8888, function () {
-    console.log('Server listening on port 8888');
+var server = app.listen(8080, function () {
+    console.log('Server listening on port 8080');
 });
